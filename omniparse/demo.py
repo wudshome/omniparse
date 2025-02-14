@@ -34,35 +34,35 @@ header_markdown = """
 #
 
 ## Problem Statement
-It's challenging to process data as it comes in different shapes and sizes. OmniParse aims to be an ingestion/parsing platform where you can ingest any type of data, such as documents, images, audio, video, and web content, and get the most structured and actionable output that is GenAI (LLM) friendly.
+处理不同形状和大小的数据是一项挑战。OmniParse旨在成为一个摄取/解析平台，您可以摄取任何类型的数据，例如文档，图像，音频，视频和Web内容，并获得GenAI（LLM）友好的最结构化和可操作的输出。
 
 <table style="width:100%">
   <thead>
     <tr>
-      <th>Features</th>
-      <th>Upcoming Features</th>
+      <th>特征</th>
+      <th>即将推出的功能</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>✅ Completely local, no external APIs</td>
-      <td>🔜 Batch processing files</td>
+      <td>✅ 完全本地化，无外部API</td>
+      <td>🔜 批处理文件</td>
     </tr>
     <tr>
-      <td>✅ Semantic Chunking</td>
-      <td>🔜 Web crawl and search</td>
+      <td>✅ 语义组块</td>
+      <td>🔜 Web抓取和搜索</td>
     </tr>
     <tr>
-      <td>✅ Supports ~20 file types</td>
-      <td>🔜 Structured output extraction</td>
+      <td>✅ 支持约20种文件类型</td>
+      <td>🔜 结构化输出抽取</td>
     </tr>
     <tr>
-      <td>✅ Convert documents, multimedia, and web pages to high-quality structured markdown</td>
-      <td>🔜 LlamaIndex, Langchain integration</td>
+      <td>✅ 将文档、多媒体和网页转换为高质量的结构化markdown</td>
+      <td>🔜 LlamaIndex，Langchain集成</td>
     </tr>
     <tr>
-      <td>✅ Table extraction, image extraction/captioning, audio/video transcription, web page crawling</td>
-      <td>🔜 Hosted ultra scalable API as a service</td>
+      <td>✅ 表格提取、图像提取/字幕、音频/视频转录、网页抓取</td>
+      <td>🔜 托管的超可扩展API即服务</td>
     </tr>
     <tr>
       <td>✅ Easily deployable using Docker and Skypilot</td>
@@ -72,7 +72,7 @@ It's challenging to process data as it comes in different shapes and sizes. Omni
 </table>
 
 ## Installation
-> Note: The server only works on Linux-based systems. This is due to certain dependencies and system-specific configurations that are not compatible with Windows or macOS.Please use Docker image provided below to run omniparse
+> Note: 服务器只能在基于Linux的系统上运行。这是由于某些依赖项和系统特定的配置与Windows或macOS不兼容。请使用下面提供的Docker镜像运行omniparse
 
 ```bash
 git clone https://github.com/adithya-s-k/omniparse
