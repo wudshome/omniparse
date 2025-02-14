@@ -13,6 +13,7 @@ from omniparse.demo import demo_ui
 # logging.basicConfig(level=logging.DEBUG)
 import gradio as gr
 
+
 warnings.filterwarnings(
     "ignore", category=UserWarning
 )  # Filter torch pytree user warnings
